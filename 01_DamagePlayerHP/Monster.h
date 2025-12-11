@@ -1,10 +1,12 @@
+// copyright junhyeok
+
 #pragma once
 
 class Monster {
-private:
-	int attackPower;
+ private:
+    int attackPower;
 
-public:
-	Monster();
-	int GetDamage() const;
+ public:
+    Monster();
+    int GetDamage() const;
 };
