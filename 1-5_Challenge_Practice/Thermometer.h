@@ -8,7 +8,7 @@ class Thermometer {
     bool isCelsiusMode;
 
  public:
-     explicit Thermometer(bool isCelsiusMode = true
+    explicit Thermometer(bool isCelsiusMode = true
                        , double celsiusTemperature = 0.0f);
 
     double GetCelsiusTemperature() const;
