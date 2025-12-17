@@ -15,7 +15,7 @@ public:
 
     // 소멸자
     ~MyClass() {
-
+        delete ptr;
     }
 
     void print() const {
