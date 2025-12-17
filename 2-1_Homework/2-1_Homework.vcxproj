@@ -124,6 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01_main.cpp" />
+    <ClCompile Include="02_Logger.cpp" />
+    <ClCompile Include="02_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02_Logger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
