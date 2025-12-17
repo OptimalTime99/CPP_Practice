@@ -4,10 +4,10 @@
 #include <string>
 
 class LifetimeChecker {
-private:
+ private:
     std::string name;
 
-public:
+ public:
     LifetimeChecker(std::string checkerName);
     ~LifetimeChecker();
 };
